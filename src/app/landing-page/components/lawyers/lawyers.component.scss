@@ -1,0 +1,19 @@
+.header{
+  font-size: 65px;
+}
+.lawyer{
+ text-align: center;
+ overflow: hidden;
+ img{
+
+  transition: all 0.7s;
+ }
+ &:hover img{
+  transform: scale(115%);
+ }
+ h4{
+  font-weight: 400;
+  font-size: 35px;
+ }
+
+}

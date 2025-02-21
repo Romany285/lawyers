@@ -1,0 +1,40 @@
+.header{
+  font-size: 75px;
+}
+h3{
+  margin-top: -40px;
+}
+.img-wrapper {
+  position: relative;
+}
+
+.img-card {
+  position: relative;
+  z-index: 10;
+  background: white;
+  box-shadow: 0px 0px 14px 0px #00000036;
+}
+
+.img-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 60%;
+  top: -10px;
+  left: 5%;
+  border-radius: 5px;
+  z-index: 5;
+  box-shadow: 0px 0px 14px 0px #00000036;
+}
+
+.img-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  top: -20px;
+  left: 10%;
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: 0px 0px 30px 0px #2f4df773;
+}

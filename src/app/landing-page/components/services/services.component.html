@@ -1,0 +1,19 @@
+<section class="my-5">
+  <div class="container">
+    <div class="text-center">
+      <h4 class="main-text-color">خدمات دال الحلول</h4>
+      <h2 class="light-gray fs-1 fw-bold py-2">تطلع علي خدمات شركتنا</h2>
+    </div>
+    <div class="row d-flex justify-content-lg-center mt-5">
+      <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let service of services">
+
+          <div class="service-box">
+            <img [src]="service.icon" [alt]="service.title">
+            <h4 class="py-3 fs-5 light-gray">{{ service.title }}</h4>
+            <p class="light-gray">{{ service.description }}</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
