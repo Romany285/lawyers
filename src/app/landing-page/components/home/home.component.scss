@@ -61,16 +61,16 @@ section{
   width: 200px;
   height: 200px;
   }
-  &::before{
-    content: "";
-    background-image: url('../../../../assets/images/png/home-images/Vector.png');
-  position: absolute;
-  bottom:  0px;
-  right:  35px;
-  z-index: 999;
-  width:100%;
-  height: 100px;
-  }
+  // &::before{
+  //   content: "";
+  //   background-image: url('../../../../assets/images/png/home-images/Vector.png');
+  // position: absolute;
+  // bottom:  0px;
+  // right:  35px;
+  // z-index: 999;
+  // width:100%;
+  // height: 100px;
+  // }
 }
 .active{
   color: rgba(179, 131, 63, 1) !important;
@@ -98,11 +98,11 @@ section{
       width: 80% !important;
       margin-left: auto;
     }
-    &::before{
-    bottom:  90px !important;
-    right:  0px;
+    // &::before{
+    // bottom:  90px !important;
+    // right:  0px;
 
-    }
+    // }
   }
   .main-btn{
     padding: 2px 15px !important;
@@ -146,10 +146,10 @@ section{
     width: 100px;
     height: 100px;
     }
-    &::before{
-    bottom:  170px;
-    right:  0px;
-    }
+    // &::before{
+    // bottom:  170px;
+    // right:  0px;
+    // }
   }
   .main-btn{
     margin-top: 5px;
