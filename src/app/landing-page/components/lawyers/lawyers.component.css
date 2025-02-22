@@ -21,4 +21,18 @@
   .row {
     margin-inline: 5px;
   }
+  .header {
+    font-size: 32px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 12px;
+  }
+  .img {
+    width: 75%;
+    margin-inline: auto;
+  }
 }/*# sourceMappingURL=lawyers.component.css.map */

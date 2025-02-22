@@ -5,4 +5,16 @@ section .social i {
   color: white;
   padding-inline: 8px;
   font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  section {
+    width: 100%;
+  }
+  section h4 {
+    font-size: 14px;
+  }
+  section p {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=footer.component.css.map */

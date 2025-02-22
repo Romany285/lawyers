@@ -9,3 +9,14 @@ section{
   }
 }
 
+@media (max-width: 576px) {
+  section{
+   width: 100%;
+   h4{
+    font-size: 14px;
+   }
+   p{
+    font-size: 10px;
+   }
+  }
+ }

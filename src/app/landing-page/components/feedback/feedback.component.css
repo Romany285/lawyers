@@ -54,6 +54,12 @@ h3 {
     margin-inline: 10px;
   }
   .header {
-    font-size: 60px;
+    font-size: 32px;
+  }
+  .text-card {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=feedback.component.css.map */

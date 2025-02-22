@@ -11,7 +11,7 @@ p{
 }
 @media (max-width: 576px) {
   .header{
-    font-size: 40px;
+    font-size: 28px !important;
   }
   h3{
     font-size: 20px;
@@ -22,7 +22,10 @@ p{
   }
   .lady-justice{
     border-right: solid black 0px;
-    padding: 10px;
+
+    width: 75%;
+    margin-inline: auto;
+
   }
  }
  @media (max-width:992px) {

@@ -118,7 +118,8 @@ section::before {
   }
   section .image {
     border: 1px solid rgb(179, 131, 63);
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
   }
   section .image img {
     transform: translate(-15px, -15px);

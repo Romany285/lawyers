@@ -8,12 +8,16 @@ img {
 
 @media (max-width: 576px) {
   .header {
-    font-size: 35px;
+    font-size: 32px;
   }
   p {
     font-size: 14px !important;
   }
   img {
     width: 18px;
+  }
+  .img {
+    width: 75%;
+    margin-inline: auto;
   }
 }/*# sourceMappingURL=specifications.component.css.map */

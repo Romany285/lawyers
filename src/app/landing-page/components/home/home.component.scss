@@ -127,7 +127,8 @@ section{
     }
     .image {
       border: 1px solid rgba(179, 131, 63, 1);
-      width: 100%;
+      width: 80%;
+      margin-left: auto;
       img {
         transform: translate(-15px, -15px );
       }
