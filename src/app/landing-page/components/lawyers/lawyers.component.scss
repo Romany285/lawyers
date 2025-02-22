@@ -1,5 +1,5 @@
 .header{
-  font-size: 65px;
+  font-size: 60px;
 }
 .lawyer{
  text-align: center;
@@ -17,3 +17,8 @@
  }
 
 }
+@media (max-width: 576px) {
+  .row{
+    margin-inline: 5px;
+  }
+ }

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+.main-text-color {
+  color: rgb(179, 131, 63);
+}
+
+.light-gray {
+  color: rgb(58, 58, 56);
+}
+
+.main-btn {
+  background-color: rgb(179, 131, 63);
+  padding: 10px 40px;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.main-btn:hover {
+  background-color: rgb(204, 148, 69);
+}/*# sourceMappingURL=styles.css.map */

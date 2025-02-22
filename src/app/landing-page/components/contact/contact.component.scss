@@ -18,3 +18,11 @@ label{
   padding: 30px;
   margin: 10px;
 }
+@media (max-width: 576px) {
+.light-gray{
+  margin-top: 20px;
+}
+  .col-lg-7{
+    padding-inline: 25px;
+  }
+ }

@@ -1,9 +1,11 @@
-.header{
+.header {
   font-size: 75px;
 }
-h3{
+
+h3 {
   margin-top: -40px;
 }
+
 .img-wrapper {
   position: relative;
 }
@@ -12,7 +14,7 @@ h3{
   position: relative;
   z-index: 10;
   background: white;
-  box-shadow: 0px 0px 14px 0px #00000036;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2117647059);
 }
 
 .img-wrapper::after {
@@ -24,7 +26,7 @@ h3{
   left: 5%;
   border-radius: 5px;
   z-index: 5;
-  box-shadow: 0px 0px 14px 0px #00000036;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2117647059);
 }
 
 .img-wrapper::before {
@@ -36,23 +38,22 @@ h3{
   left: 10%;
   border-radius: 5px;
   z-index: 1;
-  box-shadow: 0px 0px 30px 0px #2f4df773;
+  box-shadow: 0px 0px 30px 0px rgba(47, 77, 247, 0.4509803922);
 }
+
 @media (max-width: 576px) {
-  .row{
+  .row {
     margin-inline: 10px;
   }
-  .header{
+  .header {
     font-size: 50px;
   }
-
- }
- @media (max-width: 992px) {
-  .row{
+}
+@media (max-width: 992px) {
+  .row {
     margin-inline: 10px;
   }
-  .header{
+  .header {
     font-size: 60px;
   }
-
- }
+}/*# sourceMappingURL=feedback.component.css.map */

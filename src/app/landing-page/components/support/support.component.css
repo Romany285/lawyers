@@ -1,0 +1,20 @@
+section {
+  background-image: url("../../../../assets/images/png/support-images/background.png");
+  background-size: cover;
+  padding: 50px;
+  margin-block: 50px;
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 10px 0px;
+    margin-block: 20px;
+  }
+  .section h2 {
+    font-size: 18px;
+    margin-bottom: -10px;
+  }
+  .section p {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=support.component.css.map */
